@@ -4,7 +4,7 @@ import Menu from "./Menu";
 import OrderSummary from "./OrderSummary";
 import CategoryMenu from "./CategoryMenu";
 import OngoingOrders from "./OngoingOrders"; // Import the new component
-import sampleMenu from "./sampleMenu"; // Assuming sampleMenu is exported from a separate file
+import sampleMenu from "./SampleMenu"; // Assuming sampleMenu is exported from a separate file
 
 const availableTables = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const taxper = 18;
