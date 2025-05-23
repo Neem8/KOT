@@ -52,7 +52,7 @@ const OrderSummary = ({ orders, selectedTable, placeOrder, taxper }) => {
                 <td className="py-2"></td>
                 <td className="py-2 text-right font-bold" colSpan={2}>
                   Total Amount: ₹{" "}
-                  {(calculateTotal(tableOrder.items) + (calculateTotal(tableOrder.items) * taxper) / 100).toFixed(2)}
+                  {(calculateTotal(tableOrder.items) + (calculateTotal(tableOrder.items) * taxper) / 100).toFixed(2).toLocaleString('en-IN')}
                 </td>
               </tr>
             </tbody>
